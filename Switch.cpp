@@ -1,35 +1,35 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main() { 
-	int opcion; 
-	cout<< "1. crear archivo" <<endl << "2. listar archivo" <<endl << "3. eliminar archivo" <<endl << "4. salir" <<endl<<endl;
-	cout<< "Elija una opcion: "; 
-	cin>> opcion;
+using namespace std;
+
+int main() {
+	int edad;
+	cout<< "ingrese su edad: ";
+	cin>> edad;
 	
-	switch(opcion) {
-		case 1:
-			cout<< "usted a elejido crear un archivo";	
-		break;
+	if (edad <= 18 && edad >= 14) { 
+	
+		cout<< "usted es adolecente"; 
 		
-		case 2:
-			cout<< "usted a elejido listar un archivo";
-		break;
-		
-		case 3:
-			cout<< "usted a elejido eliminar un archivo";
-		break;
-		
-		case 4:
-			exit(0); 
-		break;
-		
-		default: 
-			cout<<"no ha elejido ninguna de las opciones de la lista";
-		 break;
-	}
+	 } 
+	else if (edad >= 19 && edad <= 25) { 
+	
+		cout<< "usted es un joven"; 
+	 	
+	 
+	 } 
+	 else if (edad <= 13 && edad > 0) { 
+	 	cout<< "usted es un nino" ; 
+		 
+		 }
+	 
+	 else { 
+	 	cout<< "usted es un adulto"; 
+		 
+		 } 
+	 
+	 
+	
 	return 0;
 }
+
