@@ -1,0 +1,11 @@
+Operadores lógicos 
+== : "compara si dos elementos tienen el mismo valor."
+!= : "compara si dos elementos son diferentes."
+< : "compara si el elemento izquierdo es menor que el derecho. 6<8"
+> : "compara si el elemento de iquierdo es mayor al derecho. 8>6"
+<= : " compara si el elemento izquierdo es menor o igual al elemento derecho."
+>= : " compara si el elemento izquierdo es mayor o igual al elemento derecho."
+
+&& : "es verdadero si ambas condiciones son verdaderas (8==8 && 6==6) esto es igual a verdadero. (7==8 && 6==6) esto devuelve falso."
+|| : "es verdadera si una de las dos condiciones es verdadero. (7==8 && 6==6) esto devuelve verdadero. "
+! : "compara si algo existe o es negativo. "
